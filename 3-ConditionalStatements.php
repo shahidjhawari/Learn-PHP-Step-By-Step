@@ -26,4 +26,22 @@ if ($percentage >= 80) {
 } else {
     echo "Grade: Fail";
 }
+
+
+
+$day = "Tuesday";
+
+switch ($day) {
+    case "Monday":
+        echo "Start of the week";
+        break;
+    case "Tuesday":
+        echo "Second day of the week";
+        break;
+    case "Friday":
+        echo "Weekend is near!";
+        break;
+    default:
+        echo "Some other day";
+}
 ?>
